@@ -1,0 +1,27 @@
+/* footer.css */
+
+.footer-container {
+  margin-top: 2rem;
+  border-top: 1px solid black;
+  padding: 10; /* Add padding */
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer h1 {
+  font-size: 1.5rem; /* Set font size */
+  margin-bottom: 10px; /* Add some space below the heading */
+}
+
+.footer a {
+  color: #fff; /* Set link color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
